@@ -2,7 +2,7 @@ package com.thealiyev;
 
 import java.util.ArrayList;
 
-public class Main {
+public class ImplementationExample {
     public static void main(String[] args) {
         //Rewards table initialization
         ArrayList<ArrayList<Double>> QTable, RTable = new ArrayList<>();
