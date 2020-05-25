@@ -21,6 +21,7 @@ public class QValueLearning {
         //Iterations start here
         while (currentState != finalState) {
             System.out.println("Current State: " + currentState);
+            //Find action for current state with the highest reward
             reward = RTable.get(currentState).get(0);
             action = 0;
             for (int stCounter = 0; stCounter < RTable.get(currentState).size(); stCounter++) {
