@@ -4,8 +4,8 @@ Reinforcement Learning - Q-value Learning library in Java
 
 ## Source Code Directory
 
-Q Learning library:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReinforcementLearning/src/com/thealiyev/QValueLearning.java<br/> 
-Library implementation example: ReinforcementLearning/src/com/thealiyev/ImplementationExample.java
+<pre>Q Learning library:             ReinforcementLearning/src/com/thealiyev/QValueLearning.java</pre><br/>
+<pre>Library implementation example: ReinforcementLearning/src/com/thealiyev/ImplementationExample.java</pre>
 
 ## Authors
 
