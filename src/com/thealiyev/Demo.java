@@ -24,14 +24,19 @@ public class Demo {
         RTable.get(3).set(0, -1.0);
         RTable.get(3).set(1, -1.0);
         RTable.get(2).set(3, 100.0);
+        System.out.println("Reward table:");
+        for (int stCounter = 0; stCounter < RTable.size(); stCounter++) {
+            for (int ndCounter = 0; ndCounter < RTable.get(stCounter).size(); ndCounter++) {
+                System.out.print(RTable.get(stCounter).get(ndCounter) + " ");
+            }
+            System.out.println();
+        }
 
         QValueLearning QValueLearning = new QValueLearning();
         QValueLearning.setInitialState(0);
         QValueLearning.setFinalState(3);
         QValueLearning.setAlpha(0.7);
         QValueLearning.setOmega(0.8);
-        QValueLearning.setTheNumberOfActions(4);
-        QValueLearning.setTheNumberOfStates(4);
         QValueLearning.setRTable(RTable);
         QValueLearning.iterate();
 

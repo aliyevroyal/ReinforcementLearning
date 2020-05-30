@@ -9,34 +9,45 @@ public class QValueLearning {
     private double alpha, omega;
     private int theNumberOfActions, theNumberOfStates;
     private ArrayList<ArrayList<Double>> RTable, QTable;
-    private double QValue, reward;
+    private double QValue, MaxQValue, reward;
+    ArrayList<Integer> possibleActions = new ArrayList<>();
     private int initialState, finalState, currentState, action;
 
     public void iterate() {
         random = new Random();
         //Initialization starts here
-        createEmptyQTable();
         currentState = initialState;
-        QValue = QTable.get(currentState).get(currentState);
         //Iterations start here
         while (currentState != finalState) {
             System.out.println("Current State: " + currentState);
-            //Find action for current state with the highest reward
-            reward = RTable.get(currentState).get(0);
-            action = 0;
+            //Find out all possible actions for current state
+            possibleActions = new ArrayList<>();
             for (int stCounter = 0; stCounter < RTable.get(currentState).size(); stCounter++) {
-                if (RTable.get(currentState).get(stCounter) > reward) {
-                    reward = RTable.get(currentState).get(stCounter);
-                    action = stCounter;
-                } else if (RTable.get(currentState).get(stCounter) == reward) {
+                if (RTable.get(currentState).get(stCounter) >= 0) {
+                    possibleActions.add(stCounter);
+                }
+            }
+            System.out.println("All Possible Actions: " + possibleActions);
+
+            //Find action for current state with the highest Q Value
+            MaxQValue = QTable.get(currentState).get(possibleActions.get(0));
+            action = possibleActions.get(0);
+            reward = RTable.get(currentState).get(action);
+            for (int stCounter = 0; stCounter < possibleActions.size(); stCounter++) {
+                if (QTable.get(currentState).get(possibleActions.get(stCounter)) > MaxQValue) {
+                    MaxQValue = QTable.get(currentState).get(possibleActions.get(stCounter));
+                    action = possibleActions.get(stCounter);
+                    reward = RTable.get(currentState).get(action);
+                } else if (QTable.get(currentState).get(possibleActions.get(stCounter)) == MaxQValue) {
                     if (random.nextBoolean()) {
-                        reward = RTable.get(currentState).get(stCounter);
-                        action = stCounter;
+                        MaxQValue = QTable.get(currentState).get(possibleActions.get(stCounter));
+                        action = possibleActions.get(stCounter);
+                        reward = RTable.get(currentState).get(action);
                     }
                 }
             }
             //Calculate Bellman Equation
-            QValue = QValue + alpha * (reward + omega * QTable.get(currentState).get(action) - QValue);
+            QValue = QValue + alpha * (reward + omega * MaxQValue - QValue);
             //Update Q values table
             QTable.get(currentState).set(action, QValue);
             //Update state
@@ -45,7 +56,9 @@ public class QValueLearning {
         System.out.println("Current state: " + finalState);
     }
 
-    //Creates empty Q values table each element equals to 0.0
+    /**
+     * Creates empty Q values table each element equals to 0.0
+     */
     private void createEmptyQTable() {
         QTable = new ArrayList<>();
         ArrayList<Double> vector = new ArrayList<>();
@@ -59,42 +72,49 @@ public class QValueLearning {
         }
     }
 
-    //Sets alpha, learning rate
+    /**
+     * Sets R, reward table
+     * Sets # of states
+     * Sets # of actions
+     */
+    public void setRTable(ArrayList<ArrayList<Double>> RTable) {
+        this.RTable = RTable;
+        this.theNumberOfStates = RTable.size();
+        this.theNumberOfActions = RTable.get(0).size();
+        createEmptyQTable();
+    }
+
+    /**
+     * Sets alpha, learning rate
+     */
     public void setAlpha(double alpha) {
         this.alpha = alpha;
     }
 
-    //Sets omega, discount factor
+    /**
+     * Sets omega, discount factor
+     */
     public void setOmega(double omega) {
         this.omega = omega;
     }
 
-    //Sets # of actions
-    public void setTheNumberOfActions(int theNumberOfActions) {
-        this.theNumberOfActions = theNumberOfActions;
-    }
-
-    //Sets # of states
-    public void setTheNumberOfStates(int theNumberOfStates) {
-        this.theNumberOfStates = theNumberOfStates;
-    }
-
-    //Sets R, reward table
-    public void setRTable(ArrayList<ArrayList<Double>> RTable) {
-        this.RTable = RTable;
-    }
-
-    //Sets initial state
+    /**
+     * Sets initial state
+     */
     public void setInitialState(int initialState) {
         this.initialState = initialState;
     }
 
-    //Sets final state
+    /**
+     * Sets final state
+     */
     public void setFinalState(int finalState) {
         this.finalState = finalState;
     }
 
-    //Get Q values table after iterations
+    /**
+     * Get Q values table after iterations
+     */
     public ArrayList<ArrayList<Double>> getQTable() {
         return QTable;
     }
