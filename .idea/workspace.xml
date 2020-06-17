@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699bece5-4651-4ea8-a41f-137555318247" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/QValueLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/QValueLearning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/QValueLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/QValueLearning.java" afterDir="false" />
-    </list>
+    <list default="true" id="699bece5-4651-4ea8-a41f-137555318247" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +69,7 @@
       <workItem from="1590420590551" duration="7184000" />
       <workItem from="1590859816181" duration="3752000" />
       <workItem from="1591712062678" duration="5485000" />
-      <workItem from="1592377460406" duration="2446000" />
+      <workItem from="1592377460406" duration="2476000" />
     </task>
     <servers />
   </component>
@@ -96,22 +89,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="475" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1590359590529" />
-    <state width="1398" height="471" key="GridCell.Tab.0.bottom" timestamp="1592379798438">
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom" timestamp="1592380028288">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592379798438" />
-    <state width="1398" height="471" key="GridCell.Tab.0.center" timestamp="1592379798437">
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592380028288" />
+    <state width="1398" height="471" key="GridCell.Tab.0.center" timestamp="1592380028287">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592379798437" />
-    <state width="1398" height="471" key="GridCell.Tab.0.left" timestamp="1592379798436">
+    <state width="1398" height="471" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592380028287" />
+    <state width="1398" height="471" key="GridCell.Tab.0.left" timestamp="1592380028286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592379798436" />
-    <state width="1398" height="471" key="GridCell.Tab.0.right" timestamp="1592379798438">
+    <state width="1398" height="471" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592380028286" />
+    <state width="1398" height="471" key="GridCell.Tab.0.right" timestamp="1592380028287">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592379798438" />
+    <state width="1398" height="471" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592380028287" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591835570084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
