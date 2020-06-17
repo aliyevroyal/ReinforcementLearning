@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699bece5-4651-4ea8-a41f-137555318247" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/thealiyev/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Demo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/QValueLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/QValueLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thealiyev/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/thealiyev/QValueLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/QValueLearning.java" afterDir="false" />
     </list>
@@ -39,22 +39,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealiyev.Demo" />
-      <module name="ReinforcementLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealiyev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealiyev.Test" />
       <module name="ReinforcementLearning" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +56,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +74,9 @@
       <workItem from="1590374832367" duration="370000" />
       <workItem from="1590375711723" duration="173000" />
       <workItem from="1590420590551" duration="7184000" />
-      <workItem from="1590859816181" duration="1591000" />
+      <workItem from="1590859816181" duration="3752000" />
+      <workItem from="1591712062678" duration="5485000" />
+      <workItem from="1592377460406" duration="2446000" />
     </task>
     <servers />
   </component>
@@ -100,50 +88,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="481" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1590358795642" />
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1590364000745">
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1591713467332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590364000745" />
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591713467332" />
     <state x="475" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590359590529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="475" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1590359590529" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590861648686">
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom" timestamp="1592379798438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590861648686" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590861648680">
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592379798438" />
+    <state width="1398" height="471" key="GridCell.Tab.0.center" timestamp="1592379798437">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590861648680" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590861648678">
+    <state width="1398" height="471" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592379798437" />
+    <state width="1398" height="471" key="GridCell.Tab.0.left" timestamp="1592379798436">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590861648678" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590861648681">
+    <state width="1398" height="471" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592379798436" />
+    <state width="1398" height="471" key="GridCell.Tab.0.right" timestamp="1592379798438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590861648681" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1590374703531">
+    <state width="1398" height="471" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592379798438" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591835570084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590374703531" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1590374703531">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591835570084" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1591835570083">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590374703531" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1590374703530">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591835570083" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1591835570082">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590374703530" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1590374703531">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591835570082" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1591835570083">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590374703531" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1590859819707">
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591835570083" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1592377461303">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590859819707" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592377461303" />
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590860689383">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
