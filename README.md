@@ -1,6 +1,6 @@
 ## Project Title
 
-Reinforcement Learning (Q-Value Learning) frameWork in Java
+Reinforcement Learning (Q-Value Learning) framework in Java
 
 ## Source Code Directory
 
