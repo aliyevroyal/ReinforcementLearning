@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699bece5-4651-4ea8-a41f-137555318247" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/META-INF/ReinforcementLearning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/QValueLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReinforcementLearning/com/thealiyev/QValueLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/QValueLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/QValueLearning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +30,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,6 +60,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,68 +80,31 @@
       <workItem from="1591712062678" duration="5485000" />
       <workItem from="1592377460406" duration="2476000" />
       <workItem from="1592849885806" duration="674000" />
+      <workItem from="1593434988085" duration="61000" />
+      <workItem from="1593435198772" duration="111000" />
+      <workItem from="1593455882757" duration="11000" />
+      <workItem from="1593868013198" duration="1754000" />
+      <workItem from="1593963398032" duration="1177000" />
+      <workItem from="1594271400831" duration="876000" />
+      <workItem from="1654517680150" duration="311000" />
+      <workItem from="1655808228887" duration="5683000" />
+      <workItem from="1656575013226" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="481" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590358795642">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="481" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1590358795642" />
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1591713467332">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591713467332" />
-    <state x="475" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590359590529">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="475" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1590359590529" />
-    <state width="1398" height="471" key="GridCell.Tab.0.bottom" timestamp="1592380028288">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592380028288" />
-    <state width="1398" height="471" key="GridCell.Tab.0.center" timestamp="1592380028287">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592380028287" />
-    <state width="1398" height="471" key="GridCell.Tab.0.left" timestamp="1592380028286">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592380028286" />
-    <state width="1398" height="471" key="GridCell.Tab.0.right" timestamp="1592380028287">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="471" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592380028287" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1591835570084">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591835570084" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1591835570083">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591835570083" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1591835570082">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591835570082" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1591835570083">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591835570083" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1592377461303">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592377461303" />
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590860689383">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590860689383" />
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1590370391613">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590370391613" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

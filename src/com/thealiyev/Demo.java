@@ -38,7 +38,7 @@ public class Demo {
         QValueLearning QValueLearning = new QValueLearning();
         QValueLearning.setFinalState(3);
         QValueLearning.setAlpha(0.7);
-        QValueLearning.setOmega(0.8);
+        QValueLearning.setGamma(0.8);
         QValueLearning.setRTable(RTable);
         QValueLearning.iterate(130);
 

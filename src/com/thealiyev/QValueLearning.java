@@ -6,7 +6,7 @@ import java.util.Random;
 public class QValueLearning {
     private Random random = null;
 
-    private double alpha, omega;
+    private double alpha, gamma;
     private int theNumberOfActions, theNumberOfStates;
     private ArrayList<ArrayList<Double>> RTable, QTable;
     private int initialState, finalState;
@@ -81,7 +81,7 @@ public class QValueLearning {
                 }
             }
             //Calculate Bellman Equation
-            QValue = QValue + alpha * (reward + omega * MaxQValue - QValue);
+            QValue = QValue + alpha * (reward + gamma * MaxQValue - QValue);
             //Update Q values table
             QTable.get(currentState).set(action, QValue);
             //Update state
@@ -125,10 +125,10 @@ public class QValueLearning {
     }
 
     /**
-     * Sets omega, discount factor
+     * Sets gamma, discount factor
      */
-    public void setOmega(double omega) {
-        this.omega = omega;
+    public void setGamma(double gamma) {
+        this.gamma = gamma;
     }
 
     /**
